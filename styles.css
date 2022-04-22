@@ -1,0 +1,53 @@
+h1{
+    color :#FF0000;
+    margin-right: 150px;
+    padding-left: 10%;
+}
+
+.Header{
+    background-color: #16FAFF;
+    display: flex;
+    font-family: fantasy;
+    justify-content: space-between;
+}
+.Details{
+    background-color: #e20d0d;
+    display: flex ;
+    justify-content: center;
+    flex-flow: column;
+    align-items: center;
+}
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #cafa0a;
+}
+.footer{
+    display: flex;
+    justify-content: flex-end;
+}
+a:link{
+    color : black;
+}
+a:visited{
+    color: whitesmoke;
+}
+.item{
+    position: relative;
+}
+.item p{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    opacity: 0;
+}
+.item:hover p{
+    opacity: 1;
+    
+}
+.item:hover img{
+    opacity: 0.63;
+    transform: scale(1.1);
+}
